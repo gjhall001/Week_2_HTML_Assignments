@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.top-navigation-left {
+    display: flex;
+    align-items: center;
+    gap: .75em;
+}
+
+.top-navigation-left a {
+    text-decoration: none;
+    color: black;
+}
+
+.top-navigation-left img {
+    width: 70px;
+}
+
+.top-navigation-center {
+    display: flex;
+    align-items: center;
+    gap: .75em;
+}
+
+.top-navigation-right {
+    display: flex;
+    align-items: center;
+    gap: .75em;
+}
+
+.top-navigation-right img {
+    width: 60px;
+}
+
+.top-navigation-right a {
+    text-decoration: none;
+    color: black;
+}
+
+.landing-page {
+    margin-top: 20px;
+}
+
+.landing-page-row1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.landing-page-row2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.landing-page-row3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.landing-page-row4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.landing-page-content {
+    border: 1px solid darkblue;
+    background-color: white;
+    margin: 10px;
+    padding: 30px;
+}
+
+.landing-page-content img {
+    width: 300px;
+    height: 250px;
+}
+
+.landing-page-content p,
+h2,
+h3 {
+    text-align: center;
+    padding: 2px;
+}
+
+.landing-page-content button {
+    border: none;
+    background-color: red;
+    color: white;
+    width: 140px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.contact-us {
+    display: block;
+    font-size: 20px;
+    line-height: 1.25;
+    color: #313232;
+}
+
+.contact-us input {
+    padding: 5px;
+    width: 300px;
+}
+
+.home-page {
+    padding: 5px;
+}
