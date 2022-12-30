@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page with Form</title>
+    <style>
+        #container {
+            border: 1px solid black;
+            padding-left: 5px;
+            background-color: white;
+            width: 700px;
+            padding-bottom: 20px;
+        }
+
+        body,
+        html {
+            background-color: lightgray;
+        }
+
+        button {
+            border-radius: 10px;
+            background-color: red;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h2>Contact Page</h2>
+        <form action="#" method="post">
+            <input type="text" id="Username" name="Username" placeholder="First and Last Name" required /><br>
+            <input type="email" id="email" name="email" placeholder="Email Address" required /><br>
+            <textarea name="comment" id="comment" cols="80" rows="5" placeholder="Message"></textarea> <br>
+            <select>
+                <option value="0">Select One of the Following Options</option>
+                <option value="1">Urgent Request</option>
+                <option value="2">Non-urgent Request</option>
+            </select><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+
+</html>
